@@ -3,26 +3,26 @@
 	"id": "tria_prima",
 	"version": "${version}",
 	"name": "Tria Prima",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "WIP mod for Fabric",
 	"authors": [
-		"Me!"
+		"IssaMe"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Joel-Paul/TriaPrima",
+		"sources": "https://github.com/Joel-Paul/TriaPrima"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tria_prima/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"issame.tria_prima.ExampleMod"
+			"issame.tria_prima.TriaPrima"
 		],
 		"client": [
-			"issame.tria_prima.ExampleModClient"
+          "issame.tria_prima.TriaPrimaClient"
 		],
 		"fabric-datagen": [
-			"issame.tria_prima.ExampleModDataGenerator"
+			"issame.tria_prima.TriaPrimaDataGenerator"
 		]
 	},
 	"mixins": [
