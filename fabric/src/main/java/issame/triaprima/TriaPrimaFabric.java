@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package issame.triaprima;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class TriaPrimaFabric implements ModInitializer {
     
     @Override
     public void onInitialize() {

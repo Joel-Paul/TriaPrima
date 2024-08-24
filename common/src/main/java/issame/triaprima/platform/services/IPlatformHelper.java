@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package issame.triaprima.platform.services;
 
 public interface IPlatformHelper {
 
